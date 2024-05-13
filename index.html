@@ -9,7 +9,7 @@
         <link
             rel="apple-touch-icon"
             sizes="57x57"
-            href="./assets/favicon/apple-icon-57x57.png"
+            href="#!./assets/favicon/apple-icon-57x57.png"
         />
         <link
             rel="apple-touch-icon"
@@ -86,6 +86,137 @@
         <!-- Link CSS -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <!-- Link Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
     </head>
-    <body></body>
+    <body style="height: 6000px">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner header-fixed">
+                    <!-- logo -->
+                    <img
+                        src="./assets/images/imgs/Logo.svg"
+                        alt="Lucy"
+                        class="logo"
+                    />
+                    <!-- Navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Home</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">About</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link"
+                                    >Services & Rates</a
+                                >
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Reviews</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link"
+                                    >Contacts us</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Header action -->
+                    <div class="header-action">
+                        <a href="#!" class="header-action__link">Sign In</a>
+                        <a href="#!" class="btn header-action__btn">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__inner">
+                    <div class="hero__media">
+                        <div class="hero__img-wrap">
+                            <img
+                                src="./assets/images/imgs/pet1.png"
+                                alt=""
+                                class="hero__img"
+                            />
+
+                            <!-- Decorations -->
+                            <img
+                                src="./assets/images/icons/decor1.svg"
+                                alt=""
+                                class="hero__decor hero__decor-left"
+                            />
+                            <img
+                                src="./assets/images/icons/decor2.svg"
+                                alt=""
+                                class="hero__decor hero__decor-right"
+                            />
+                        </div>
+
+                        <div class="hero__img-wrap hero__img-wrap-small">
+                            <img
+                                src="./assets/images/imgs/pet2.png"
+                                alt=""
+                                class="hero__img"
+                            />
+                        </div>
+
+                        <div class="hero__list">
+                            <!-- hero-list item 1 -->
+                            <div class="hero-list-item">
+                                <img
+                                    src="./assets/images/imgs/pet3.png"
+                                    alt=""
+                                    class="hero-list-item__thumb"
+                                />
+                                <div class="hero-list-item__info">
+                                    <p class="hero-list-item__title">
+                                        Pet Health
+                                    </p>
+                                    <div class="hero-list-itemskeleton"></div>
+                                    <div
+                                        class="hero-list-itemskeleton"
+                                        style="--width: 40px"
+                                    ></div>
+                                </div>
+                            </div>
+
+                            <div class="hero-list-item__separate"></div>
+
+                            <!-- hero-list item 2 -->
+                            <div class="hero-list-item">
+                                <img
+                                    src="./assets/images/imgs/pet4.png"
+                                    alt=""
+                                    class="hero-list-item__thumb"
+                                />
+                                <div class="hero-list-item__info">
+                                    <p class="hero-list-item__title">
+                                        Pet care
+                                    </p>
+                                    <div class="hero-list-itemskeleton"></div>
+                                    <div
+                                        class="hero-list-itemskeleton"
+                                        style="--width: 40px"
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__content"></div>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
